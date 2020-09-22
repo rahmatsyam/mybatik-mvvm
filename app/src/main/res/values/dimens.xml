@@ -1,0 +1,32 @@
+<resources>
+
+    <dimen name="spacing_large">42dp</dimen>
+    <dimen name="spacing_medium">32dp</dimen>
+    <dimen name="spacing_default">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_background_custom">1dp</dimen>
+
+    <dimen name="text_xxxsmall">10sp</dimen>
+    <dimen name="text_exxsmall">11sp</dimen>
+    <dimen name="text_xxsmall">12sp</dimen>
+    <dimen name="text_xsmall">14sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_semi_medium">18sp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_semi_large">24sp</dimen>
+    <dimen name="text_large">32sp</dimen>
+    <dimen name="text_xlarge">42sp</dimen>
+
+    <dimen name="text_button_large">16sp</dimen>
+    <dimen name="text_button_small">12sp</dimen>
+
+    <dimen name="icon_small">16dp</dimen>
+    <dimen name="icon_medium_small">24dp</dimen>
+    <dimen name="icon_medium">32dp</dimen>
+    <dimen name="icon_medium_large">48dp</dimen>
+    <dimen name="icon_large">64dp</dimen>
+    <dimen name="icon_llarge">96dp</dimen>
+    <dimen name="icon_xlarge">128dp</dimen>
+
+</resources>
