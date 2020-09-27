@@ -14,6 +14,7 @@ import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import okhttp3.Request;
+import okio.Timeout;
 import retrofit2.Call;
 import retrofit2.CallAdapter;
 import retrofit2.Callback;
@@ -153,6 +154,11 @@ public class RetryCallAdapterFactory extends CallAdapter.Factory {
         @Override
         public Request request() {
             return delegated.request();
+        }
+
+        @Override
+        public Timeout timeout() {
+            return null;
         }
     }
 

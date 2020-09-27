@@ -10,7 +10,7 @@ public interface APIInterface {
 
     @Retry
     @GET("batik/all")
-    Observable<BatikModel> getAll();
+    Observable<BatikModel> getAllBatik();
 
     @GET("batik/")
     Observable<BatikModel> search(@Query("batik") String batik);

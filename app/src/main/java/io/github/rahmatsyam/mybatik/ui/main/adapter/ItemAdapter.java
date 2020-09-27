@@ -1,8 +1,11 @@
 package io.github.rahmatsyam.mybatik.ui.main.adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.view.WindowMetrics;
 import android.widget.ImageView;
 import android.widget.TextView;
 

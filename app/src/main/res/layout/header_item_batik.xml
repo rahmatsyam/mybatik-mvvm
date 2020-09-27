@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:id="@+id/rl_header"
+    android:visibility="visible"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="@dimen/spacing_small">
+    android:paddingStart="@dimen/spacing_small"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingEnd="@dimen/spacing_small">
 
     <TextView
         android:id="@+id/tv_batik"
@@ -16,6 +21,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:textSize="@dimen/text_semi_medium"
         android:id="@+id/tv_see_all"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

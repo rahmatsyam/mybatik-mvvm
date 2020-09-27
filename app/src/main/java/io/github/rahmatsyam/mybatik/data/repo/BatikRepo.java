@@ -23,7 +23,7 @@ public class BatikRepo {
         MutableLiveData<List<ResultModel>> data = new MutableLiveData<>();
 
         APIUtils.getApiInterface()
-                .getAll()
+                .getAllBatik()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<BatikModel>() {
